@@ -78,3 +78,15 @@ No credentials or private Canvas content are included in the repository.
 - Source, docs, tests, selected screenshots, recorded quotes, and video are kept in GitHub;
   local databases, dependencies, credentials, and course pages are excluded.
 - Final publication/clean-checkout verification is recorded in the submission report.
+- Published application commit: `5f21e81596e126803edc353465747751f2452db2`.
+  A fresh clone installed frontend packages with `npm ci` and produced a successful
+  build; all 10 tests passed when run from its repository root using the existing
+  locked Python environment. The 200-receipt loader also succeeded in that clone.
+- The first clean-clone test invocation accidentally ran from the parent directory and
+  failed to import `backend`. Running the documented command from the repository root
+  resolved it; no application code change was needed.
+- [GitHub Actions run 43277573602](https://github.com/ben-randall1/ist402-assignment4-market-desk/actions/runs/43277573602)
+  completed successfully with independent dependency installation, tests, and build.
+- The direct public MP4 URL returned HTTP 200. After a backend restart, the browser
+  displayed stored historical bars plus new live Yahoo observations and 839 receipts
+  at the verification checkpoint. This supports persistence across a real process restart.
