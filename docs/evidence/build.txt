@@ -1,0 +1,13 @@
+
+> market-desk@1.0.0 build
+> vite build
+
+vite v6.4.6 building for production...
+transforming...
+✓ 16 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.42 kB │ gzip:  0.30 kB
+dist/assets/index-V9wvdm2_.css    8.35 kB │ gzip:  2.62 kB
+dist/assets/index-ddwM8Tsu.js   247.94 kB │ gzip: 85.11 kB
+✓ built in 545ms

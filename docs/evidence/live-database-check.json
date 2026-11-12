@@ -1,0 +1,20 @@
+{
+  "integrity": "ok",
+  "receipts": 346,
+  "revisions": 346,
+  "source_range": [
+    1794506442000,
+    1794506739000
+  ],
+  "symbols": [
+    {
+      "symbol": "AAPL",
+      "distinct_versions": 288
+    },
+    {
+      "symbol": "BTC-USD",
+      "distinct_versions": 58
+    }
+  ],
+  "candle_versions": 352
+}
